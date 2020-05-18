@@ -60,7 +60,7 @@ def for_general_track():
 print('\t*** ORACLE BAHOSE PROJECT QUALIFICATION CHECKER !!! ***')
 
 # Collect the tracks user is offering
-user_tracks = list(input("Select your tracks\nSelect as eg:12 if you're offering both python and general tracks. Dont put comma between the numbers!!!\nSee the options below:\n\t1 - Python Track\n\t2 - General Track\n\t"))
+user_tracks = list(input("Select your tracks\nSelect like eg:12 if you're offering both python and general tracks. Dont put comma between the numbers!!!\nSee the options below:\n\t1 - Python Track\n\t2 - General Track\n\t"))
 
 for user_track in user_tracks:
 	if user_track != '1' and user_track != '2':
